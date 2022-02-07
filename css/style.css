@@ -9,6 +9,7 @@ body {
   color: var(--secondary-text-color);
   link: var(--primary-title-color);
   font-family: Roboto, sans-serif;
+  background-color: var(--secondary-accent-color);
 }
 .list {
   list-style: none;
@@ -60,7 +61,20 @@ body {
 }
 /* header end */
 /* hero start */
+.hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 65px;
+
+  background: #2f303a;
+}
 .hero-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -70,6 +84,12 @@ body {
   color: var(--secondary-accent-color);
 }
 .hero-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
   cursor: pointer;
   font-weight: 900;
   font-size: 16px;
@@ -78,6 +98,7 @@ body {
   background: var(--accent-color);
   color: var(--secondary-accent-color);
 }
+
 /* hero end */
 /* quality start*/
 .quality-title {
@@ -106,6 +127,15 @@ body {
 }
 /* service end */
 /* team start */
+.team {
+  /* position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px; */
+
+  background: #f5f4fa;
+}
 .team-secondary-title {
   font-weight: 900;
   font-size: 36px;
@@ -131,7 +161,19 @@ body {
 }
 /* team end */
 /* footer start */
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
 .adress {
+  width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 2208px;
+
   font-style: normal;
 
   font-size: 14px;
@@ -140,6 +182,11 @@ body {
   color: var(--secondary-accent-color);
 }
 .logo-footer {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -156,9 +203,25 @@ body {
 
   color: var(--accent-color);
 }
+.nav-footer .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.nav-footer .link:hover,
+.nav-footer .link:focus {
+  color: var(--secondary-accent-color);
+}
+
 /* Portfolio */
 
 /* filters start */
+.buttons .current {
+  color: var(--secondary-accent-color);
+  background: var(--accent-color);
+}
 .buttons {
   font-weight: 500;
   font-size: 16px;
